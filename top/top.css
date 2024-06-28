@@ -1,0 +1,324 @@
+/* トップ用 */
+
+
+/* 最大枠 */
+.kakomi {
+  display: block;
+}
+
+
+
+/* タイトル */
+.title {  
+  max-height: 70rem;
+  aspect-ratio: 16 / 9;  /* アスペクト比固定 幅/高さ */
+  margin: auto; /* 中央揃えのため */
+  margin-bottom: 5rem;
+  /*ここまで同じ*/
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color:  rgba(247, 247, 247, 1);
+  
+
+  /* position: fixed ;
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* box-sizing: border-box; */
+  /* padding-top: 1rem;
+  padding-left: 2rem; */
+  /* margin: 0 auto; */
+  /*中央揃えのため*/
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */ 
+}
+
+
+/* 画像 div */
+.img-0 {
+  width: 90%;
+  height: 90%;
+}
+
+/* 画像 a */
+.img-0-0 {
+
+}
+
+/* 画像 img */
+.img-0-0-0 {
+  max-width:100%;
+  height:auto;
+}
+
+/* タイトル文字 div */
+.title-letter {
+  position: absolute; /* 相対位置指定 */
+  z-index: 1; /* テキストを画像の上に表示 */
+  padding: 5rem;
+  font-size: 2.5rem;
+}
+
+/* タイトル文字 a */
+.title-image-caption { 
+
+}
+
+
+/* --------------------------------------------------------------------- */
+/* 紹介文 */
+.introducing {  
+  max-height: 70rem;
+  aspect-ratio: 16 / 9;  /* アスペクト比固定 幅/高さ */
+  margin: auto; /* 中央揃えのため */
+  margin-bottom: 5rem;
+  /*ここまで同じ*/
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5つの列を等間隔で作成 */
+  
+  background-color:  rgb(248, 252, 240);
+}
+
+
+/* 画像0 div*/
+.img-0-introducing-div {
+  height: 100%;
+  grid-column: 1 / 2; /* グリッドのどの境界線の間に配置するか */
+  grid-row: 1 / 2;    /* 縦方向にいっぱい */
+
+  background-color:  rgb(228, 248, 252);
+}
+/* 画像1 a */
+.img-0-introducing-a {
+
+}
+
+/* 画像1 div*/
+.img-1-introducing-div {
+  display:none;
+  height: 100%;
+  grid-column: 5 / 6; /* グリッドのどの境界線の間に配置するか */
+  grid-row: 1 / 2;    /* 縦方向にいっぱい */
+  
+  background-color:  rgb(228, 248, 252);
+}
+/* 画像1 a */
+.img-1-introducing-a {
+
+}
+
+
+/* 紹介文文字 div */
+.intro-letter-div {
+  display: flex;
+  flex-direction: column; /* 要素を縦方向に配置 */
+
+  height: 100%;
+  grid-column: 2 / 5; /* グリッドのどの境界線の間に配置するか */
+  grid-row: 1 / 2;    /* 縦方向にいっぱい */
+
+  justify-content: center; /* 垂直方向（上下）中央揃え */
+  align-items: center; /* 水平方向（左右）中央揃え */
+
+  background-color:  rgb(253, 238, 238);
+}
+
+/* 紹介文 大文字 div */
+.d-intro-letter-caption-big { 
+}
+/* 紹介文 大文字 p */
+.p-intro-letter-caption-big { 
+}
+
+/* 紹介文 小文字 div */
+.d-intro-letter-caption-small { 
+}
+/* 紹介文 小文字 p */
+.p-intro-letter-caption-small { 
+}
+
+
+/* --------------------------------------------------------------------- */
+/* サイト説明 ABOUT */
+.explanation-about {  
+  max-height: 70rem;
+  aspect-ratio: 16 / 9;  /* アスペクト比固定 幅/高さ */
+  margin: auto; /* 中央揃えのため */
+  margin-bottom: 5rem;
+  /*ここまで同じ*/
+
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* 幅の比率を指定 */
+  background-color:  rgb(248, 252, 240);
+}
+
+
+/* 画像 div*/
+.img-explanation-about-div {
+  height: 100%;
+  order: 2; /* 2番目に配置 */
+
+  background-color:  rgb(228, 248, 252);
+}
+/* 画像 a */
+.img-explanation-about-a {
+
+}
+
+
+/* 紹介文文字 div */
+.explanation-about-letter-a {
+  display: flex;
+  flex-direction: column; /* 要素を縦方向に配置 */
+
+  height: 100%;
+  order: 1; /* 1番目に配置 */
+
+  justify-content: center; /* 垂直方向（上下）中央揃え */
+  align-items: center; /* 水平方向（左右）中央揃え */
+  background-color:  rgb(253, 238, 238);
+}
+
+/* 紹介文 大文字 div */
+.explanation-about-letter-caption-big-d { 
+}
+/* 紹介文 大文字 a */
+.explanation-about-letter-caption-big-a { 
+}
+
+/* 紹介文 小文字 div */
+.explanation-about-letter-caption-small-d { 
+}
+/* 紹介文 小文字 p */
+.explanation-about-letter-caption-small-p { 
+}
+
+
+/* --------------------------------------------------------------------- */
+/* サイト説明 GALLERY */
+.explanation-gallery {  
+  max-height: 70rem;
+  aspect-ratio: 16 / 9;  /* アスペクト比固定 幅/高さ */
+  margin: auto; /* 中央揃えのため */
+  margin-bottom: 5rem;
+  /*ここまで同じ*/
+
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* 幅の比率を指定 */
+  background-color:  rgb(248, 252, 240);
+}
+
+
+/* 画像 div*/
+.img-explanation-gallery-div {
+  height: 100%;
+  order: 1; /* 1番目に配置 */
+  background-color:  rgb(228, 248, 252);
+}
+/* 画像 a */
+.img-explanation-gallery-a {
+
+}
+
+
+/* 紹介文文字 div */
+.explanation-gallery-letter-a {
+  display: flex;
+  flex-direction: column; /* 要素を縦方向に配置 */
+
+  height: 100%;
+  order: 2; /* 2番目に配置 */
+
+  justify-content: center; /* 垂直方向（上下）中央揃え */
+  align-items: center; /* 水平方向（左右）中央揃え */
+  background-color:  rgb(253, 238, 238);
+}
+
+/* 紹介文 大文字 div */
+.explanation-gallery-letter-caption-big-d { 
+}
+/* 紹介文 大文字 a */
+.explanation-gallery-letter-caption-big-a { 
+}
+
+/* 紹介文 小文字 div */
+.explanation-gallery-letter-caption-small-d { 
+
+}
+/* 紹介文 小文字 p */
+.explanation-gallery-letter-caption-small-p { 
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/* サイト説明 POST */
+.explanation-post {  
+  max-height: 70rem;
+  aspect-ratio: 16 / 9;  /* アスペクト比固定 幅/高さ */
+  margin: auto; /* 中央揃えのため */
+  margin-bottom: 5rem;
+  /*ここまで同じ*/
+
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* 幅の比率を指定 */
+  background-color:  rgb(248, 252, 240);
+}
+
+
+/* 画像 div*/
+.img-explanation-post-div {
+  height: 100%;
+  order: 2; /* 2番目に配置 */
+
+  background-color:  rgb(228, 248, 252);
+}
+/* 画像 a */
+.img-explanation-post-a {
+
+
+}
+
+
+/* 紹介文文字 div */
+.explanation-post-letter-a {
+  display: flex;
+  flex-direction: column; /* 要素を縦方向に配置 */
+
+  height: 100%;
+  order: 1; /* 1番目に配置 */
+
+  justify-content: center; /* 垂直方向（上下）中央揃え */
+  align-items: center; /* 水平方向（左右）中央揃え */
+  background-color:  rgb(253, 238, 238);
+}
+
+/* 紹介文 大文字 div */
+.explanation-post-letter-caption-big-d { 
+}
+/* 紹介文 大文字 a */
+.explanation-post-letter-caption-big-a { 
+}
+
+/* 紹介文 小文字 div */
+.explanation-post-letter-caption-small-d { 
+
+}
+/* 紹介文 小文字 p */
+.explanation-post-letter-caption-small-p { 
+}
+
+
+
+
+
+
+
