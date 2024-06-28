@@ -144,7 +144,7 @@
             <div class="explanation-about-letter-a">
               <!-- 大文字 -->
               <div class="explanation-about-letter-caption-big-d">
-                <a class="explanation-about-letter-caption-big-a" href="../about/about">ABOUT</a>
+                <!-- <a class="explanation-about-letter-caption-big-a" href="../about/about">ABOUT</a> -->
               </div>
               <!-- 小文字 -->
               <div class="explanation-about-letter-caption-small-d">
@@ -168,7 +168,7 @@
             <div class="explanation-gallery-letter-a">
               <!-- 大文字 -->
               <div class="explanation-gallery-letter-caption-big-d">
-                <a class="explanation-gallery-letter-caption-big-a" href="../gallery/gallery">GALLERY</a>
+                <!-- <a class="explanation-gallery-letter-caption-big-a" href="../gallery/gallery">GALLERY</a> -->
               </div>
               <!-- 小文字 -->
               <div class="explanation-gallery-letter-caption-small-d">
@@ -192,7 +192,7 @@
             <div class="explanation-post-letter-a">
               <!-- 大文字 -->
               <div class="explanation-post-letter-caption-big-d">
-                <a class="explanation-post-letter-caption-big-a" href="../post/sample">POST</a>
+                <!-- <a class="explanation-post-letter-caption-big-a" href="../post/sample">POST</a> -->
               </div>
               <!-- 小文字 -->
               <div class="explanation-post-letter-caption-small-d">
